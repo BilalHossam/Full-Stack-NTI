@@ -15,13 +15,13 @@ $posts = get_all_posts($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Blog</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/scripts.js"></script>
 </head>
 <body>
     <header>
-        <h1>Simple Blog</h1>
+        <h1>Blog</h1>
         <nav>
             <?php if ($logged_in): ?>
                 <span>Welcome, <?php echo htmlspecialchars($user_name); ?>!</span>
